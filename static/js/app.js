@@ -16,7 +16,7 @@ function init() {
     // Initialise the Test Subject ID with the first test subject ID from the names list
     const firstSubjectID = subjectID[0];
     
-    // Initialise the Demographic Info and Plots with the first test subject ID from the names list
+    // Initialise the Demographic Info and Plots with the first test subject ID
     buildMetadata(firstSubjectID);
     buildCharts(firstSubjectID);
     });
