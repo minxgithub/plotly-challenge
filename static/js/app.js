@@ -13,10 +13,10 @@ function init() {
               .property("value", sample);
         });
 
-    // Initiate the Test Subject ID with the first test subject ID from the names list
+    // Initialise the Test Subject ID with the first test subject ID from the names list
     const firstSubjectID = subjectID[0];
     
-    // Initiate the Demographic Info and Plots with the first test subject ID from the names list
+    // Initialise the Demographic Info and Plots with the first test subject ID from the names list
     buildMetadata(firstSubjectID);
     buildCharts(firstSubjectID);
     });
@@ -115,5 +115,5 @@ function optionChanged(newSample) {
     buildMetadata(newSample);
 }
 
-// Initiate the dashboard
+// Initialise the dashboard
 init();
